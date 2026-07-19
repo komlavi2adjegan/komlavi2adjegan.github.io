@@ -205,6 +205,20 @@ ol.pub-list li {
 .entry-title { font-weight: 700; margin-bottom: 3px; }
 .entry-meta { color: var(--muted); margin-bottom: 6px; font-size: 0.95rem; }
 
+.entry-list {
+  margin: 0 0 16px;
+  padding-left: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.entry-list li { margin-bottom: 8px; }
+
+.entry-list.entry-list-nested {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+
 /* Experience & Education timeline */
 
 .timeline {
