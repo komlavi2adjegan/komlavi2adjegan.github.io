@@ -275,11 +275,16 @@ ol.pub-list li {
   margin-bottom: 22px;
 }
 
-.timeline-block.experience,
-.timeline-block.research { background: var(--blue-bg); }
-.timeline-block.education,
-.timeline-block.intl-dev { background: var(--cream-bg); }
-.timeline-block.teaching { background: var(--teal-bg); }
+.timeline-block.experience { background: var(--blue-bg); }
+.timeline-block.education { background: var(--cream-bg); }
+
+.timeline-block.research,
+.timeline-block.teaching,
+.timeline-block.intl-dev {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
 
 .timeline-block h3 {
   color: var(--blue);
