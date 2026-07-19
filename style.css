@@ -289,6 +289,9 @@ ol.pub-list li {
 .timeline-item {
   position: relative;
   margin-bottom: 22px;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 .timeline-item:last-child { margin-bottom: 0; }
