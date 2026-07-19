@@ -135,6 +135,12 @@ p {
 
 a { color: var(--teal); }
 
+sup {
+  font-size: 0.68em;
+  line-height: 0;
+  vertical-align: super;
+}
+
 /* News */
 
 ul.news-list {
