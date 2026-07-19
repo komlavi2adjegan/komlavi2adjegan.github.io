@@ -221,6 +221,7 @@ ol.pub-list li {
 .research-block.accent-teal { border-left-color: var(--teal); }
 .research-block.accent-blue { border-left-color: var(--blue); }
 .research-block.accent-amber { border-left-color: var(--amber); }
+.research-block.accent-slate { border-left-color: var(--muted); }
 
 /* Entry blocks (used on Research / Teaching pages) */
 
