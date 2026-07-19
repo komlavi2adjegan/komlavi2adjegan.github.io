@@ -6,6 +6,7 @@
   --blue-bg: #eaf1fc;
   --cream-bg: #faf1e3;
   --teal-bg: #e6f5f2;
+  --amber: #c9902f;
   --rule: #1a1a1a;
   --bg: #ffffff;
   --max-width: 820px;
@@ -205,6 +206,21 @@ ol.pub-list li {
 }
 
 .see-more:hover { text-decoration: underline; }
+
+/* Research page: color-coded accent borders per subsection */
+
+.research-block {
+  border-left: 4px solid var(--muted);
+  padding-left: 18px;
+  margin: 0 0 28px;
+}
+
+.research-block .subsection-title { margin-top: 0; }
+.research-block .pub-list { margin-bottom: 0; }
+
+.research-block.accent-teal { border-left-color: var(--teal); }
+.research-block.accent-blue { border-left-color: var(--blue); }
+.research-block.accent-amber { border-left-color: var(--amber); }
 
 /* Entry blocks (used on Research / Teaching pages) */
 
