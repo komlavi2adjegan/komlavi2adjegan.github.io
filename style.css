@@ -277,9 +277,7 @@ ol.pub-list li {
   margin-bottom: 22px;
 }
 
-.timeline-block.experience { background: var(--blue-bg); }
-.timeline-block.education { background: var(--cream-bg); }
-
+.timeline-block.education,
 .timeline-block.research,
 .timeline-block.teaching,
 .timeline-block.intl-dev {
