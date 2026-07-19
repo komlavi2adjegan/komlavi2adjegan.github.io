@@ -153,6 +153,8 @@ ul.news-list {
 
 ul.news-list li {
   margin-bottom: 10px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .news-date {
