@@ -125,7 +125,13 @@ h2.section-title {
   margin: 0 0 16px;
 }
 
-p { margin: 0 0 16px; color: var(--ink); }
+p {
+  margin: 0 0 16px;
+  color: var(--ink);
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
 
 a { color: var(--teal); }
 
@@ -162,6 +168,8 @@ ol.pub-list {
 
 ol.pub-list li {
   margin-bottom: 14px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .pub-list .pub-title { font-weight: 600; }
